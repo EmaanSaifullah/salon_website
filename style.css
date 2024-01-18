@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    border: border-box;
+
+
+}
+
+/**header**/
+.border{
+    border: 2px solid transparent;
+ }
+
+ .border:hover{
+    border: 2px solid peachpuff;
+ }
+.navbar{
+    height: 120px;
+    color:white;
+    background-color: rgb(8, 1, 2);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.navlogo{
+    margin-top: 1px;
+    height:120px ;
+    width: 180px;
+
+
+}
+.logo{
+    margin-top: 1px;
+
+    height:120px;
+    width: 100%;
+    background-image: url(logo22.jpg);
+    background-size: cover;
+    background-position: right;
+    align-items: left;
+
+}
+
+.logo:hover{
+    border: 2px solid pink;
+}
+
+.links >a{
+    color:palevioletred;
+    margin: 20px;
+    display: inline;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-size: 1.70rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: 1000;}
+
+/**main**/
+/**hero image**/
+img{
+    height: 650px;
+    width: 100%;
+    align-items: center;
+}
+
+img:hover{
+    border:2px solid pink;
+
+}
+
+/** services**/
+.services{ background-color: pink;
+    width: 100%;
+    height: 500px;
+    padding-top: 50px;
+}
+
+.heading{
+    display: block;
+    color: black;
+    margin-left: 40%;
+    
+}
+
+ .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+
+
+
+.nail{
+    height: 300px;
+    width: 23%;
+    border: 2px solid navajowhite;
+    background-color: rgb(224, 224, 233);
+    margin: 50px;
+    background-image: url(nail.jpg);
+    background-size: cover;
+}
+
+.hair{
+    height: 300px;
+    width: 23%;
+    border: 2px solid navajowhite;
+    background-color: rgb(241, 241, 243);
+    margin: 50px;
+    background-image: url(hairr.jpg);
+    background-size: cover;
+}
+
+
+.facial{
+    height: 300px;
+    width: 23%;
+    border: 2px solid navajowhite;
+    background-color: rgb(236, 236, 248);
+    margin: 50px;
+    background-image:url(facial.jpg);
+    background-size: cover;
+
+}
+
+.TEXT{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(61, 61, 51);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    
+}
+
+
+.makeup{ background-color: pink;
+    width: 100%;
+    height: 700px;
+    padding-top: 50px;
+}
+
+
+
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+
+
+
+.bridal{
+    height: 500px;
+    width: 35%;
+    border: 2px solid navajowhite;
+    background-color: rgb(221, 221, 236);
+    margin: 50px;
+    background-image: url(bridal.jpg);
+    background-size:cover;
+}
+
+.party{
+    height: 500px;
+    width: 35%;
+    border: 2px solid navajowhite;
+    background-color: rgb(226, 226, 241);
+    margin: 50px;
+    background-image: url(party.jpg);
+    background-size: cover;
+}
+
+
+.model{
+    height: 500px;
+    width: 40%;
+    border: 2px solid navajowhite;
+    background-color: rgb(234, 234, 245);
+    margin: 50px;
+    background-image:url(model.jpg);
+    background-size: cover;
+
+}
+
+/**footer**/
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(189, 165, 169);
+  
+}
+
+
+.social-media{
+    padding-top:40px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media>a{
+    padding: 5px;
+    text-decoration: none;
+    color: azure;
+}
+
+.copyright{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/**CONTACTUS**/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fad0d0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: rgb(228, 174, 174);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    color: #d46363;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+/**about**/
+.about-header {
+    background-color: #333;
+    color: rgb(231, 216, 216);
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    height: 500px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    padding-top: 30px;
+    color: #333;
+}
+
+p {
+    line-height: 2;
+    color: #666;
+}
+
+    
+@media only screen and (max-width: 600px) {
+    body {
+      width: 400px;
+      height: 200px;
+    }
+  }
